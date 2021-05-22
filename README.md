@@ -6,5 +6,5 @@ Therefore, I now feel the need to prove to myself that I can actually make a dec
 I am expecting this application to be substantially better in every way imaginable, and to take a fraction of the time to create.
 
 This application aims to be similar to the original iMat in scope and design.
-I am using the same design documents we did during the course. I also recreated the "backend" to function similarily,
+I am using the same design documents we made during the course. I also recreated the "backend" to function similarily,
 though I did make some modifications in order for it to better work with Javascript and React.
