@@ -1,3 +1,5 @@
+![iMatJS logo](iMatJS_logo.png)
+
 # iMatJS - Fictional online grocery store for the elderly
 
 During a course I took at university we were designing a grocery store application.
