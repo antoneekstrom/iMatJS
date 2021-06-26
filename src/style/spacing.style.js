@@ -1,4 +1,4 @@
 import styled from 'styled-components'
 
-export default styled.span`
+export const PaddingStyle = styled.div`
 `

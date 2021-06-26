@@ -7,6 +7,13 @@
          "tags": ["mejeri", "vätska", "erbjudande"],
          "description": "Mjölk är en vit vätska.",
          "producer": "Wapnö"
+      },
+      {
+         "nameShort": "Polkagris",
+         "image": "polkagris.png",
+         "tags": ["polka", "gris"],
+         "description": "Polkagris.",
+         "producer": "Polkagris AB"
       }
    ]
 }

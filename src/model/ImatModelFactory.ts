@@ -1,5 +1,6 @@
 import ClientSideModel from './ClientSideModel';
-import ImatModel, { Product } from './types';
+import ImatModel from './ImatModel';
+import { Product } from './productTypes';
 
 export default class ImatModelFactory {
    static clientside(products: Product[]): ImatModel {

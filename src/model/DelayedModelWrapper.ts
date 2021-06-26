@@ -1,4 +1,7 @@
-import ImatModel, { Customer, OrderHistory, Product, ShoppingCart, User } from './types';
+import { ShoppingCart } from './cartTypes';
+import ImatModel from './ImatModel';
+import { Customer, OrderHistory, User } from './personalTypes';
+import { Product, ProductCategory, ProductReference, SearchResult } from './productTypes';
 
 export default class DelayedModelWrapper implements ImatModel {
    constructor(
@@ -26,22 +29,34 @@ export default class DelayedModelWrapper implements ImatModel {
       return this.delay(() => this.model.getOrderHistory());
    }
 
-   getProducts(): Promise<Product[]> {
-      return this.delay(() => this.model.getProducts());
+   getCategories(): Promise<ProductCategory[]> {
+      return this.delay(() => this.model.getCategories());
    }
 
-   private getRandomDelayInRange(): number {
-      const [min, max] = this.delayRange
-      const r = Math.random();
-      return min + r * (max - min)
+   searchProducts(searchTerm: string, count?: number): Promise<SearchResult[]> {
+      return this.delay(() => this.model.searchProducts(searchTerm, count));
+   }
+
+   getProductsByReference(references: ProductReference[]): Promise<Product[]> {
+      return this.delay(() => this.model.getProductsByReference(references));
+   }
+
+   addToCart(product: Product): Promise<ShoppingCart> {
+      return this.delay(async () => this.model.addToCart(product));
    }
 
    private async delay<T>(producer: () => Promise<T>): Promise<T> {
-      await DelayedModelWrapper.sleep(this.getRandomDelayInRange())
+      await DelayedModelWrapper.sleep(this.getRandomDelayInRange());
       return producer();
    }
 
-   private static sleep(time: number): Promise<void> {
+   private getRandomDelayInRange(): number {
+      const [min, max] = this.delayRange;
+      const r = Math.random();
+      return min + r * (max - min);
+   }
+
+   static sleep(time: number): Promise<void> {
       return new Promise((resolve) => {
          setTimeout(() => resolve(), time);
       });

@@ -1,32 +1,39 @@
 import { Link } from 'raviger';
 import React, { PropsWithChildren } from 'react';
-import { Path } from '../routes';
+import { Route } from '../routes';
+import { ButtonStyle } from '../style/buttons.style';
 import HeaderStyle, { HeaderLink } from '../style/Header.style';
 import ImatLogoStyle from '../style/ImatLogo.style';
-import ProductSearch from './ProductSearch';
+import Icon from './Icon';
 
 export type HeaderProps = PropsWithChildren<unknown>;
 
 export default function Header({}: HeaderProps) {
    return (
       <HeaderStyle>
-         <Link href="/">
-            <ImatLogoStyle>iMat</ImatLogoStyle>
-         </Link>
-         <nav>
-            <HeaderLink href={'/products' as Path}>Butik</HeaderLink>
-            <HeaderLink href={'/products?tags=erbjudande' as Path}>Erbjudanden</HeaderLink>
-            <HeaderLink href={'/products?tags=favourite' as Path}>Favoriter</HeaderLink>
-            <ProductSearch />
-         </nav>
-         <nav className="far">
-            <Link href={'/checkout' as Path}>
-               <button>Varukorg</button>
+         <div className="page-width">
+            <Link href="/" className="header-logo">
+               <ImatLogoStyle>iMat</ImatLogoStyle>
             </Link>
-            <Link href={'/account' as Path}>
-               <button>Konto</button>
-            </Link>
-         </nav>
+            <nav className="header-links">
+               <HeaderLink href={'/products' as Route}>Butik</HeaderLink>
+               <HeaderLink href={'/products?tags=erbjudande' as Route}>
+                  Erbjudanden
+               </HeaderLink>
+               <HeaderLink href={'/products?tags=favorit' as Route}>
+                  Favoriter
+               </HeaderLink>
+            </nav>
+            <nav className="header-end">
+               <Icon size={24}>notifications</Icon>
+               <Link href={'/account' as Route}>
+                  <ButtonStyle as="button">
+                     <Icon size={18}>account_circle</Icon>
+                     Konto
+                  </ButtonStyle>
+               </Link>
+            </nav>
+         </div>
       </HeaderStyle>
    );
 }

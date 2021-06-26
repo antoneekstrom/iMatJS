@@ -4,23 +4,31 @@ import Header from './components/Header';
 import { getImatContext } from './hooks/useImat';
 import DelayedModelWrapper from './model/DelayedModelWrapper';
 import ImatModelFactory from './model/ImatModelFactory';
-import ImatModel from './model/types';
+import ImatModel from './model/ImatModel';
 import { ROUTES } from './routes';
 import AppStyle from './style/App.style';
 import GlobalStyle from './style/global.style';
-import { products } from '../public/data/products.json'
+import IcaLoader from './model/IcaLoader';
 
 const { Provider: ImatContextProvider } = getImatContext();
 
 function App() {
-   const [model] = useState<ImatModel>(
-      new DelayedModelWrapper(ImatModelFactory.clientside(products), [100, 200])
+   const [imat] = useState<ImatModel>(
+      new DelayedModelWrapper(
+         ImatModelFactory.clientside(IcaLoader.load()),
+         [0, 0]
+      )
    );
 
-   const Page = () => useRoutes(ROUTES);
+   const page = useRoutes(ROUTES);
+   const Page = () => page;
+
+   (async () => {
+      console.log(await (await imat.getCategories()).map(({name}) => name).sort())
+   })()
 
    return (
-      <ImatContextProvider value={model}>
+      <ImatContextProvider value={imat}>
          <GlobalStyle />
          <AppStyle>
             <Header />

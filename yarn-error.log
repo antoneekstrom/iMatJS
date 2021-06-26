@@ -1,5 +1,5 @@
 Arguments: 
-  D:\Programs\nodejs\node.exe D:\Programs\nodejs\node_modules\yarn\bin\yarn.js add quickscore
+  D:\Programs\nodejs\node.exe D:\Programs\nodejs\node_modules\yarn\bin\yarn.js add --dev @types/quick-score
 
 PATH: 
   D:\Programs\vulkanSDK\1.2.162.1\Bin;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Programs\nvm;D:\Programs\nodejs;D:\Programs\Vim\vim82;D:\Programs\cmake\bin;D:\Programs\ninja\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-14.0.2\bin;;C:\Program Files\Git LFS;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\anton\.cargo\bin;C:\Users\anton\AppData\Local\Microsoft\WindowsApps;C:\Users\anton\AppData\Local\Programs\Microsoft VS Code\bin;D:\Programs\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Program Files (x86)\GitHub CLI\;D:\Programs\WebStorm 2020.3\bin;;D:\Programs\nvm;D:\Programs\nodejs;D:\Programs\heroku\bin;C:\Users\anton\AppData\Local\hyper\app-3.0.2\resources\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/quickscore: Not found
+  Error: https://registry.yarnpkg.com/@types%2fquick-score: Not found
       at Request.params.callback [as _callback] (D:\Programs\nvm\v15.4.0\node_modules\yarn\lib\cli.js:66988:18)
       at Request.self.callback (D:\Programs\nvm\v15.4.0\node_modules\yarn\lib\cli.js:140662:22)
       at Request.emit (node:events:376:20)
@@ -36,9 +36,11 @@ npm manifest:
       "serve": "vite preview"
     },
     "dependencies": {
+      "quick-score": "^0.0.12",
       "raviger": "^2.1.0",
       "react": "^17.0.0",
       "react-dom": "^17.0.0",
+      "react-hook-form": "^7.6.5",
       "rxjs": "^7.1.0",
       "styled-components": "^5.3.0",
       "swr": "^0.5.6"
@@ -599,6 +601,11 @@ Lockfile:
       nanoid "^3.1.23"
       source-map-js "^0.6.2"
   
+  quick-score@^0.0.12:
+    version "0.0.12"
+    resolved "https://registry.yarnpkg.com/quick-score/-/quick-score-0.0.12.tgz#262a5ec529332e25d31783e0b721fbb7955d72c3"
+    integrity sha512-YbVgdRf4QdRfgSLMdBl/bnqqrZlkoIHYPogG5LFRAr/tDJ9K5YDZlouGOosjasTylaPjUL5eLBor7a5r2UUiTg==
+  
   raviger@^2.1.0:
     version "2.1.0"
     resolved "https://registry.yarnpkg.com/raviger/-/raviger-2.1.0.tgz#3fb9f24870beec4b7d37ed84cc04e7f355001643"
@@ -612,6 +619,11 @@ Lockfile:
       loose-envify "^1.1.0"
       object-assign "^4.1.1"
       scheduler "^0.20.2"
+  
+  react-hook-form@^7.6.5:
+    version "7.6.5"
+    resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.6.5.tgz#f3e2d75e3ca5312522c7ea5cd597f0bab123da1f"
+    integrity sha512-bxWzRYbPGg830NezZsAiAO/rYKsF3j4IJeX9M/MPqF1uS5vNaxnn1+P93J/EOZhb4IPq5/5hM24e0C4nfIZJjQ==
   
   react-is@^16.7.0:
     version "16.13.1"

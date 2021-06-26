@@ -1,0 +1,1392 @@
+{
+   "products": [
+      {
+         "id": 87,
+         "type": "MELONS",
+         "name": "Galiamelon",
+         "price": 29.95,
+         "unit": "kr/kg",
+         "image": "product_87.jpg",
+         "tags": ["favorit"],
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 92,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Gramsmjöl",
+         "price": 12.75,
+         "unit": "kr/förp",
+         "image": "product_92.jpg",
+         "tags": ["erbjudande", "favorit"],
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 95,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Socker",
+         "price": 15.95,
+         "unit": "kr/förp",
+         "image": "product_95.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 71,
+         "type": "MEAT",
+         "name": "Grytbitar nöt",
+         "price": 89.0,
+         "unit": "kr/kg",
+         "image": "product_71.jpg",
+         "tags": ["erbjudande", "favorit", "nöt"],
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 77,
+         "type": "DAIRIES",
+         "name": "Brie",
+         "price": 15.0,
+         "unit": "kr/st",
+         "image": "product_77.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 62,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Squash",
+         "price": 59.0,
+         "unit": "kr/kg",
+         "image": "product_62.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 63,
+         "type": "CABBAGE",
+         "name": "Blomkål",
+         "price": 39.95,
+         "unit": "kr/kg",
+         "image": "product_63.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 64,
+         "type": "CABBAGE",
+         "name": "Broccoli",
+         "price": 39.8,
+         "unit": "kr/kg",
+         "image": "product_64.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 65,
+         "type": "CABBAGE",
+         "name": "Brysselkål",
+         "price": 14.95,
+         "unit": "kr/kg",
+         "image": "product_65.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 66,
+         "type": "CABBAGE",
+         "name": "Kinakål",
+         "price": 14.95,
+         "unit": "kr/kg",
+         "image": "product_66.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 67,
+         "type": "CABBAGE",
+         "name": "Romanesco",
+         "price": 37.9,
+         "unit": "kr/kg",
+         "image": "product_67.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 68,
+         "type": "CABBAGE",
+         "name": "Rödkål",
+         "price": 29.95,
+         "unit": "kr/kg",
+         "image": "product_68.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 69,
+         "type": "CABBAGE",
+         "name": "Ekologisk vitkål",
+         "price": 5.95,
+         "unit": "kr/kg",
+         "image": "product_69.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 70,
+         "type": "CABBAGE",
+         "name": "Savoykål",
+         "price": 25.9,
+         "unit": "kr/kg",
+         "image": "product_70.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 72,
+         "type": "MEAT",
+         "name": "Högrev",
+         "price": 69.0,
+         "unit": "kr/kg",
+         "image": "product_72.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 73,
+         "type": "MEAT",
+         "name": "Kycklingbröstfilé",
+         "price": 139.0,
+         "unit": "kr/kg",
+         "image": "product_73.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 74,
+         "type": "MEAT",
+         "name": "Kycklingklubbor",
+         "price": 31.0,
+         "unit": "kr/kg",
+         "image": "product_74.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 75,
+         "type": "MEAT",
+         "name": "Ekologisk kyckling hel",
+         "price": 59.0,
+         "unit": "kr/kg",
+         "image": "product_75.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 76,
+         "type": "MEAT",
+         "name": "Köttfärs nöt",
+         "price": 50.95,
+         "unit": "kr/kg",
+         "image": "product_76.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 97,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Cashewnöt",
+         "price": 39.95,
+         "unit": "kr/kg",
+         "image": "product_97.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 98,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Hasselnöt",
+         "price": 80.0,
+         "unit": "kr/kg",
+         "image": "product_98.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 99,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Jordnöt",
+         "price": 79.0,
+         "unit": "kr/kg",
+         "image": "product_99.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 100,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Kokosnöt",
+         "price": 14.0,
+         "unit": "kr/kg",
+         "image": "product_100.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 101,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Mandel",
+         "price": 53.0,
+         "unit": "kr/kg",
+         "image": "product_101.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 102,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Pistagenöt",
+         "price": 72.0,
+         "unit": "kr/kg",
+         "image": "product_102.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 103,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Valnöt",
+         "price": 69.0,
+         "unit": "kr/kg",
+         "image": "product_103.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 104,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Pumpakärnor",
+         "price": 195.0,
+         "unit": "kr/kg",
+         "image": "product_104.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 105,
+         "type": "NUTS_AND_SEEDS",
+         "name": "Solrosfrön",
+         "price": 150.0,
+         "unit": "kr/kg",
+         "image": "product_105.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 106,
+         "type": "PASTA",
+         "name": "Farfalle",
+         "price": 14.0,
+         "unit": "kr/förp",
+         "image": "product_106.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 107,
+         "type": "PASTA",
+         "name": "Fettuccine",
+         "price": 16.0,
+         "unit": "kr/förp",
+         "image": "product_107.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 108,
+         "type": "PASTA",
+         "name": "Fusilli",
+         "price": 18.0,
+         "unit": "kr/förp",
+         "image": "product_108.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 109,
+         "type": "PASTA",
+         "name": "Lasagne",
+         "price": 16.0,
+         "unit": "kr/förp",
+         "image": "product_109.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 110,
+         "type": "PASTA",
+         "name": "Penne",
+         "price": 9.9,
+         "unit": "kr/förp",
+         "image": "product_110.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 111,
+         "type": "PASTA",
+         "name": "Rigatoni",
+         "price": 11.0,
+         "unit": "kr/förp",
+         "image": "product_111.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 112,
+         "type": "PASTA",
+         "name": "Spaghetti",
+         "price": 12.0,
+         "unit": "kr/förp",
+         "image": "product_112.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 113,
+         "type": "POTATO_RICE",
+         "name": "Basmati-ris",
+         "price": 24.0,
+         "unit": "kr/kg",
+         "image": "product_113.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 114,
+         "type": "POTATO_RICE",
+         "name": "Fullkornsris",
+         "price": 28.0,
+         "unit": "kr/kg",
+         "image": "product_114.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 115,
+         "type": "POTATO_RICE",
+         "name": "Jasmin-ris",
+         "price": 25.0,
+         "unit": "kr/kg",
+         "image": "product_115.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 116,
+         "type": "POTATO_RICE",
+         "name": "Potatis",
+         "price": 7.0,
+         "unit": "kr/kg",
+         "image": "product_116.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 117,
+         "type": "POTATO_RICE",
+         "name": "Potatis röd",
+         "price": 6.0,
+         "unit": "kr/kg",
+         "image": "product_117.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 118,
+         "type": "POTATO_RICE",
+         "name": "Potatis söt",
+         "price": 26.0,
+         "unit": "kr/kg",
+         "image": "product_118.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 119,
+         "type": "POTATO_RICE",
+         "name": "Potatispuré",
+         "price": 9.9,
+         "unit": "kr/förp",
+         "image": "product_119.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 120,
+         "type": "POTATO_RICE",
+         "name": "Råris",
+         "price": 24.0,
+         "unit": "kr/kg",
+         "image": "product_120.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 121,
+         "type": "ROOT_VEGETABLE",
+         "name": "Kålrot",
+         "price": 9.95,
+         "unit": "kr/kg",
+         "image": "product_121.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 122,
+         "type": "ROOT_VEGETABLE",
+         "name": "Majrova",
+         "price": 10.0,
+         "unit": "kr/kg",
+         "image": "product_122.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 123,
+         "type": "ROOT_VEGETABLE",
+         "name": "Morot",
+         "price": 5.0,
+         "unit": "kr/kg",
+         "image": "product_123.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 124,
+         "type": "ROOT_VEGETABLE",
+         "name": "Palsternacka",
+         "price": 20.0,
+         "unit": "kr/kg",
+         "image": "product_124.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 125,
+         "type": "ROOT_VEGETABLE",
+         "name": "Pepparrot",
+         "price": 119.0,
+         "unit": "kr/kg",
+         "image": "product_125.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 126,
+         "type": "ROOT_VEGETABLE",
+         "name": "Rädisa",
+         "price": 86.0,
+         "unit": "kr/kg",
+         "image": "product_126.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 127,
+         "type": "ROOT_VEGETABLE",
+         "name": "Rödbeta",
+         "price": 4.9,
+         "unit": "kr/kg",
+         "image": "product_127.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 128,
+         "type": "ROOT_VEGETABLE",
+         "name": "Rotselleri",
+         "price": 12.0,
+         "unit": "kr/kg",
+         "image": "product_128.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 129,
+         "type": "FRUIT",
+         "name": "Aprikos",
+         "price": 40.0,
+         "unit": "kr/kg",
+         "image": "product_129.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 130,
+         "type": "FRUIT",
+         "name": "Körsbär",
+         "price": 59.0,
+         "unit": "Kr/kg",
+         "image": "product_130.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 131,
+         "type": "FRUIT",
+         "name": "Nektarin",
+         "price": 45.0,
+         "unit": "kr/kg",
+         "image": "product_131.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 132,
+         "type": "FRUIT",
+         "name": "Persika",
+         "price": 39.0,
+         "unit": "kr/kg",
+         "image": "product_132.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 133,
+         "type": "FRUIT",
+         "name": "Plommon",
+         "price": 38.0,
+         "unit": "kr/kg",
+         "image": "product_133.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 134,
+         "type": "SWEET",
+         "name": "Chips",
+         "price": 17.0,
+         "unit": "kr/påse",
+         "image": "product_134.gif",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 135,
+         "type": "SWEET",
+         "name": "Choklad",
+         "price": 19.0,
+         "unit": "kr/st",
+         "image": "product_135.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 136,
+         "type": "SWEET",
+         "name": "Glass",
+         "price": 29.0,
+         "unit": "kr/l",
+         "image": "product_136.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 137,
+         "type": "SWEET",
+         "name": "Kanelbullar",
+         "price": 10.0,
+         "unit": "kr/st",
+         "image": "product_137.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 138,
+         "type": "SWEET",
+         "name": "Kex",
+         "price": 13.0,
+         "unit": "kr/förp",
+         "image": "product_138.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 139,
+         "type": "SWEET",
+         "name": "Kokosbollar",
+         "price": 3.0,
+         "unit": "kr/st",
+         "image": "product_139.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 140,
+         "type": "SWEET",
+         "name": "Praliner",
+         "price": 52.0,
+         "unit": "kr/förp",
+         "image": "product_140.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 141,
+         "type": "HERB",
+         "name": "Basilika",
+         "price": 16.0,
+         "unit": "kr/st",
+         "image": "product_141.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 142,
+         "type": "HERB",
+         "name": "Citronmeliss",
+         "price": 15.0,
+         "unit": "kr/st",
+         "image": "product_142.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 143,
+         "type": "HERB",
+         "name": "Dill",
+         "price": 13.0,
+         "unit": "kr/st",
+         "image": "product_143.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 144,
+         "type": "HERB",
+         "name": "Koriander",
+         "price": 16.0,
+         "unit": "kr/st",
+         "image": "product_144.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 145,
+         "type": "HERB",
+         "name": "Oregano",
+         "price": 16.0,
+         "unit": "kr/st",
+         "image": "product_145.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 146,
+         "type": "HERB",
+         "name": "Persilja",
+         "price": 12.0,
+         "unit": "kr/st",
+         "image": "product_146.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 147,
+         "type": "HERB",
+         "name": "Rosmarin",
+         "price": 13.0,
+         "unit": "kr/st",
+         "image": "product_147.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 148,
+         "type": "HERB",
+         "name": "Timjan",
+         "price": 15.0,
+         "unit": "kr/st",
+         "image": "product_148.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 78,
+         "type": "DAIRIES",
+         "name": "Filmjölk",
+         "price": 12.0,
+         "unit": "kr/st",
+         "image": "product_78.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 79,
+         "type": "DAIRIES",
+         "name": "Färskost",
+         "price": 14.0,
+         "unit": "kr/st",
+         "image": "product_79.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 80,
+         "type": "DAIRIES",
+         "name": "Mjölk",
+         "price": 10.0,
+         "unit": "kr/st",
+         "image": "product_80.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 81,
+         "type": "DAIRIES",
+         "name": "Mozzarella",
+         "price": 16.0,
+         "unit": "kr/st",
+         "image": "product_81.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 82,
+         "type": "DAIRIES",
+         "name": "Västerbotten",
+         "price": 50.0,
+         "unit": "kr/st",
+         "image": "product_82.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 83,
+         "type": "DAIRIES",
+         "name": "Yoghurt laktosfri",
+         "price": 14.0,
+         "unit": "kr/st",
+         "image": "product_83.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 84,
+         "type": "DAIRIES",
+         "name": "Yoghurt turkisk",
+         "price": 18.0,
+         "unit": "kr/st",
+         "image": "product_84.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 85,
+         "type": "DAIRIES",
+         "name": "Ägg",
+         "price": 12.5,
+         "unit": "kr/förp",
+         "image": "product_85.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 86,
+         "type": "MELONS",
+         "name": "Charentaismelon",
+         "price": 25.0,
+         "unit": "kr/kg",
+         "image": "product_86.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 88,
+         "type": "MELONS",
+         "name": "Honungsmelon",
+         "price": 19.9,
+         "unit": "kr/kg",
+         "image": "product_88.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 89,
+         "type": "MELONS",
+         "name": "Nätmelon",
+         "price": 29.95,
+         "unit": "kr/kg",
+         "image": "product_89.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 90,
+         "type": "MELONS",
+         "name": "Vattenmelon",
+         "price": 9.95,
+         "unit": "kr/kg",
+         "image": "product_90.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 91,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Farinsocker",
+         "price": 19.0,
+         "unit": "kr/förp",
+         "image": "product_91.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 93,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Rågmjöl",
+         "price": 12.7,
+         "unit": "kr/förp",
+         "image": "product_93.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 94,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Salt",
+         "price": 5.4,
+         "unit": "kr/förp",
+         "image": "product_94.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 96,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Vetemjöl",
+         "price": 18.0,
+         "unit": "kr/förp",
+         "image": "product_96.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 1,
+         "type": "POD",
+         "name": "Gröna ärter",
+         "price": 19.5,
+         "unit": "kr/kg",
+         "image": "product_1.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 2,
+         "type": "POD",
+         "name": "Kikärtor",
+         "price": 24.0,
+         "unit": "kr/kg",
+         "image": "product_2.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 3,
+         "type": "POD",
+         "name": "Linser bruna",
+         "price": 18.0,
+         "unit": "kr/förp",
+         "image": "product_3.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 4,
+         "type": "POD",
+         "name": "Linser gröna",
+         "price": 12.0,
+         "unit": "kr/förp",
+         "image": "product_4.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 5,
+         "type": "POD",
+         "name": "Linser röda",
+         "price": 15.0,
+         "unit": "kr/förp",
+         "image": "product_5.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 6,
+         "type": "POD",
+         "name": "Röda bönor",
+         "price": 20.0,
+         "unit": "kr/förp",
+         "image": "product_6.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 7,
+         "type": "POD",
+         "name": "Vita bönor",
+         "price": 24.0,
+         "unit": "kr/förp",
+         "image": "product_7.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 8,
+         "type": "BREAD",
+         "name": "Bröd grovt",
+         "price": 29.0,
+         "unit": "kr/st",
+         "image": "product_8.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 9,
+         "type": "BREAD",
+         "name": "Bröd vitt",
+         "price": 28.0,
+         "unit": "kr/st",
+         "image": "product_9.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 10,
+         "type": "BREAD",
+         "name": "Fralla",
+         "price": 20.0,
+         "unit": "kr/förp",
+         "image": "product_10.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 11,
+         "type": "BREAD",
+         "name": "Knäckebröd",
+         "price": 24.0,
+         "unit": "kr/förp",
+         "image": "product_11.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 12,
+         "type": "BREAD",
+         "name": "Toast",
+         "price": 18.0,
+         "unit": "kr/förp",
+         "image": "product_12.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 13,
+         "type": "BREAD",
+         "name": "Tunnbröd",
+         "price": 20.0,
+         "unit": "kr/förp",
+         "image": "product_13.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 14,
+         "type": "BREAD",
+         "name": "Vörtlimpa",
+         "price": 23.0,
+         "unit": "kr/st",
+         "image": "product_14.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 15,
+         "type": "BERRY",
+         "name": "Björnbär",
+         "price": 49.0,
+         "unit": "kr/kg",
+         "image": "product_15.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 16,
+         "type": "BERRY",
+         "name": "Blåbär",
+         "price": 52.0,
+         "unit": "kr/kg",
+         "image": "product_16.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 17,
+         "type": "BERRY",
+         "name": "Hallon",
+         "price": 75.0,
+         "unit": "kr/kg",
+         "image": "product_17.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 18,
+         "type": "BERRY",
+         "name": "Krusbär",
+         "price": 64.0,
+         "unit": "kr/kg",
+         "image": "product_18.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 19,
+         "type": "BERRY",
+         "name": "Röda vinbär",
+         "price": 40.0,
+         "unit": "kr/kg",
+         "image": "product_19.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 20,
+         "type": "BERRY",
+         "name": "Smultron",
+         "price": 69.0,
+         "unit": "kr/kg",
+         "image": "product_20.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 21,
+         "type": "BERRY",
+         "name": "Svarta vinbär",
+         "price": 45.0,
+         "unit": "kr/kg",
+         "image": "product_21.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 22,
+         "type": "CITRUS_FRUIT",
+         "name": "Apelsin",
+         "price": 10.0,
+         "unit": "kr/kg",
+         "image": "product_22.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 23,
+         "type": "CITRUS_FRUIT",
+         "name": "Citron",
+         "price": 49.0,
+         "unit": "kr/kg",
+         "image": "product_23.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 24,
+         "type": "CITRUS_FRUIT",
+         "name": "Clementin",
+         "price": 25.0,
+         "unit": "kr/kg",
+         "image": "product_24.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 25,
+         "type": "CITRUS_FRUIT",
+         "name": "Grapefruit",
+         "price": 9.0,
+         "unit": "kr/kg",
+         "image": "product_25.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 26,
+         "type": "CITRUS_FRUIT",
+         "name": "Lime",
+         "price": 45.0,
+         "unit": "kr/kg",
+         "image": "product_26.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 27,
+         "type": "HOT_DRINKS",
+         "name": "Cacao",
+         "price": 18.0,
+         "unit": "kr/förp",
+         "image": "product_27.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 28,
+         "type": "HOT_DRINKS",
+         "name": "Earl grey",
+         "price": 20.0,
+         "unit": "kr/förp",
+         "image": "product_28.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 29,
+         "type": "HOT_DRINKS",
+         "name": "Grönt te",
+         "price": 22.0,
+         "unit": "kr/förp",
+         "image": "product_29.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 30,
+         "type": "HOT_DRINKS",
+         "name": "Kaffe",
+         "price": 48.0,
+         "unit": "kr/förp",
+         "image": "product_30.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 31,
+         "type": "HOT_DRINKS",
+         "name": "Rooibos",
+         "price": 13.0,
+         "unit": "kr/förp",
+         "image": "product_31.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 32,
+         "type": "COLD_DRINKS",
+         "name": "Apelsinjuice",
+         "price": 14.0,
+         "unit": "kr/förp",
+         "image": "product_32.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 33,
+         "type": "COLD_DRINKS",
+         "name": "Cola burk",
+         "price": 10.0,
+         "unit": "kr/st",
+         "image": "product_33.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 34,
+         "type": "COLD_DRINKS",
+         "name": "Cola flaska",
+         "price": 18.5,
+         "unit": "kr/st",
+         "image": "product_34.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 35,
+         "type": "COLD_DRINKS",
+         "name": "Fanta burk",
+         "price": 10.0,
+         "unit": "kr/st",
+         "image": "product_35.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 36,
+         "type": "COLD_DRINKS",
+         "name": "Fanta flaska",
+         "price": 17.0,
+         "unit": "kr/st",
+         "image": "product_36.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 37,
+         "type": "COLD_DRINKS",
+         "name": "Fruktsoppa",
+         "price": 10.95,
+         "unit": "kr/förp",
+         "image": "product_37.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 38,
+         "type": "COLD_DRINKS",
+         "name": "7Up burk",
+         "price": 10.0,
+         "unit": "kr/st",
+         "image": "product_38.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 39,
+         "type": "COLD_DRINKS",
+         "name": "7Up flaska",
+         "price": 12.4,
+         "unit": "kr/st",
+         "image": "product_39.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 40,
+         "type": "COLD_DRINKS",
+         "name": "Vatten",
+         "price": 12.5,
+         "unit": "kr/st",
+         "image": "product_40.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 41,
+         "type": "EXOTIC_FRUIT",
+         "name": "Ananas",
+         "price": 18.0,
+         "unit": "kr/kg",
+         "image": "product_41.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 42,
+         "type": "EXOTIC_FRUIT",
+         "name": "Fikon",
+         "price": 95.0,
+         "unit": "kr/kg",
+         "image": "product_42.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 43,
+         "type": "EXOTIC_FRUIT",
+         "name": "Granatäpple",
+         "price": 39.0,
+         "unit": "kr/kg",
+         "image": "product_43.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 44,
+         "type": "EXOTIC_FRUIT",
+         "name": "Kiwi",
+         "price": 32.0,
+         "unit": "kr/kg",
+         "image": "product_44.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 45,
+         "type": "EXOTIC_FRUIT",
+         "name": "Mango",
+         "price": 14.75,
+         "unit": "kr/kg",
+         "image": "product_45.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 46,
+         "type": "EXOTIC_FRUIT",
+         "name": "Papaya",
+         "price": 24.0,
+         "unit": "kr/kg",
+         "image": "product_46.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 47,
+         "type": "EXOTIC_FRUIT",
+         "name": "Rambutan",
+         "price": 39.9,
+         "unit": "kr/kg",
+         "image": "product_47.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 48,
+         "type": "FISH",
+         "name": "Fiskpinnar",
+         "price": 35.0,
+         "unit": "kr/förp",
+         "image": "product_48.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 49,
+         "type": "FISH",
+         "name": "Kräftor",
+         "price": 129.0,
+         "unit": "kr/kg",
+         "image": "product_49.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 50,
+         "type": "FISH",
+         "name": "Lax",
+         "price": 102.0,
+         "unit": "kr/kg",
+         "image": "product_50.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 51,
+         "type": "FISH",
+         "name": "Räkor",
+         "price": 46.0,
+         "unit": "kr/kg",
+         "image": "product_51.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 52,
+         "type": "FISH",
+         "name": "Sej",
+         "price": 98.0,
+         "unit": "kr/kg",
+         "image": "product_52.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 53,
+         "type": "FISH",
+         "name": "Sill",
+         "price": 48.0,
+         "unit": "kr/kg",
+         "image": "product_53.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 54,
+         "type": "FISH",
+         "name": "Tonfisk",
+         "price": 14.0,
+         "unit": "kr/burk",
+         "image": "product_54.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 55,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Aubergine",
+         "price": 39.95,
+         "unit": "kr/kg",
+         "image": "product_55.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 56,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Avocado",
+         "price": 43.0,
+         "unit": "kr/kg",
+         "image": "product_56.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 57,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Gurka",
+         "price": 34.0,
+         "unit": "kr/kg",
+         "image": "product_57.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 58,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Oliver",
+         "price": 39.0,
+         "unit": "kr/kg",
+         "image": "product_58.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 59,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Okra",
+         "price": 42.0,
+         "unit": "kr/kg",
+         "image": "product_59.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 60,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Paprika",
+         "price": 49.0,
+         "unit": "kr/kg",
+         "image": "product_60.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 61,
+         "type": "VEGETABLE_FRUIT",
+         "name": "Pumpa",
+         "price": 29.95,
+         "unit": "kr/kg",
+         "image": "product_61.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 149,
+         "type": "MEAT",
+         "name": "Ekologisk blandfärs",
+         "price": 49.95,
+         "unit": "Kr/kg",
+         "image": "product_149.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 150,
+         "type": "MEAT",
+         "name": "Ekologisk nötfärs",
+         "price": 52.95,
+         "unit": "Kr/kg",
+         "image": "product_150.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 151,
+         "type": "FLOUR_SUGAR_SALT",
+         "name": "Ekologiskt socker",
+         "price": 20.5,
+         "unit": "Kr/förp",
+         "image": "product_151.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 152,
+         "type": "CABBAGE",
+         "name": "Ekologisk blomkål",
+         "price": 41.35,
+         "unit": "Kr/kg",
+         "image": "product_152.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 153,
+         "type": "CABBAGE",
+         "name": "Ekologisk brysselkål",
+         "price": 15.75,
+         "unit": "Kr/kg",
+         "image": "product_153.jpg",
+         "brand": "Wapnö AB"
+      },
+      {
+         "id": 154,
+         "type": "DAIRIES",
+         "name": "Ekologiska ägg",
+         "price": 15.95,
+         "unit": "Kr/förp",
+         "image": "product_154.jpg"
+      }
+   ]
+}

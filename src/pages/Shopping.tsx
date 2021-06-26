@@ -1,33 +1,39 @@
-import React, { PropsWithChildren, Suspense } from 'react';
-import useProducts from '../hooks/useProducts';
-import useTags from '../hooks/useTags';
+import React, { Suspense } from 'react';
+import CartButton from '../components/CartButton';
+import Categories from '../components/Categories';
+import Products from '../components/Products';
+import ProductSearch from '../components/ProductSearch';
+import ModelDataFactory from '../model/ModelDataFactory';
+import { ProductCategory } from '../model/productTypes';
+import ShoppingStyle from '../style/Shopping.style';
+import { Header1 } from '../style/typography.style';
 
-export type ShoppingProps = PropsWithChildren<unknown>;
+export type ShoppingProps = {
+   category?: string | undefined;
+};
 
-export default function Shopping({}: ShoppingProps) {
+export default function Shopping({ category }: ShoppingProps) {
+   return (
+      <ShoppingStyle className="page-width">
+         <nav className="product-nav">
+            <ProductSearch className="product-search" />
+            <CartButton />
+         </nav>
+         <Categories />
+         <Content category={category ? ModelDataFactory.category(category) : undefined} />
+      </ShoppingStyle>
+   );
+}
+
+function Content({ category }: {category: ProductCategory | undefined}) {
    return (
       <main>
-         <h1>butik</h1>
+         <Header1>
+            {category ? category.name : 'Produkter'}
+         </Header1>
          <Suspense fallback={<div>hämtar produkter...</div>}>
             <Products />
          </Suspense>
       </main>
-   );
-}
-
-function Products() {
-   const products = useProducts(true);
-   const tags = useTags();
-
-   return (
-      <ol>
-         {products
-            ?.filter((product) => product.tags?.includes(tags[0]))
-            ?.map((product) => (
-               <li key={product.nameShort}>
-                  <p>{product.nameShort}</p>
-               </li>
-            ))}
-      </ol>
    );
 }

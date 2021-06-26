@@ -3,3 +3,5 @@ node_modules
 dist
 dist-ssr
 *.local
+ica_data
+public/ica_product_images

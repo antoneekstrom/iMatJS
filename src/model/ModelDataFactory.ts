@@ -1,4 +1,6 @@
-import { Cost, CreditCard, Customer, Order, OrderHistory, Person, ShoppingCart, ShoppingItem, User } from './types';
+import { CartItem, ShoppingCart } from "./cartTypes";
+import { CreditCard, Customer, Order, OrderHistory, Person, User } from "./personalTypes";
+import { Cost, Product, ProductCategory } from "./productTypes";
 
 /**
  * Creates parts of the model.
@@ -36,10 +38,10 @@ export default class ModelDataFactory {
       }
    }
 
-   static cart(items: ShoppingItem[] = []): ShoppingCart {
+   static cart(items: CartItem[] = []): ShoppingCart {
       return {
          items,
-         totalCost: this.cost(items.reduce((total, item) => total + item.totalCost.total, 0))
+         totalCost: this.price(items.reduce((total, item) => total + item.totalCost.value, 0))
       }
    }
 
@@ -49,11 +51,34 @@ export default class ModelDataFactory {
       }
    }
 
-   static cost(baseValue: number, currency: string = 'kr'): Cost {
+   static price(value: number, currency: string = 'kr'): Cost {
       return {
-         baseValue,
-         currency,
-         total: baseValue
+         value,
+         currency
+      }
+   }
+
+   static cartItem(product: Product, count = 1): CartItem {
+      return {
+         product,
+         count,
+         totalCost: this.price(product.price ?? 0 * count)
+      }
+   }
+
+   static category(name: string, slug = name, id = name): ProductCategory {
+      return {
+         name, id, slug
+      }
+   }
+
+   static dummyProduct(): Product {
+      return {
+         id: -1,
+         categories: [],
+         name: "PLUPP",
+         price: 2,
+         unit: "plupps"
       }
    }
 

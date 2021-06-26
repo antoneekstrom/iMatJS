@@ -1,20 +1,26 @@
 import useSWR from 'swr';
-import { Product } from '../model/types';
+import { Product, ProductReference } from '../model/productTypes';
+import ImatModel from '../model/ImatModel';
 import { useImat } from './useImat';
 
-/**
- *
- * @returns
- */
-export default function useProducts(suspense: boolean) {
+export type UseProductOptions = {
+   suspense?: boolean;
+   id: string;
+};
+
+export default function useProducts(
+   references: ProductReference[],
+   { suspense, id }: UseProductOptions = { id: 'use_products' }
+): Product[] {
    const model = useImat();
    const { data } = useSWR<Product[]>(
-      ['model', model],
-      (_id, model) => model.getProducts(),
+      [id, model, references],
+      (_id, model: ImatModel, references: ProductReference[]) =>
+         model.getProductsByReference(references),
       {
-         suspense,
+         suspense: suspense ?? false,
       }
    );
 
-   return data;
+   return data as Product[];
 }
