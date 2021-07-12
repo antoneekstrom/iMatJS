@@ -9,13 +9,14 @@ import { ROUTES } from './routes';
 import AppStyle from './style/App.style';
 import GlobalStyle from './style/global.style';
 import IcaLoader from './model/IcaLoader';
+import DAT216Loader from './model/DAT216Loader';
 
 const { Provider: ImatContextProvider } = getImatContext();
 
 function App() {
    const [imat] = useState<ImatModel>(
       new DelayedModelWrapper(
-         ImatModelFactory.clientside(IcaLoader.load()),
+         ImatModelFactory.clientside(DAT216Loader.load()),
          [0, 0]
       )
    );
